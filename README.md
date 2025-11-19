@@ -117,9 +117,12 @@ docker ps
 docker exec -it arx-node ls /usr/arx-node/logs
 docker exec -it arx-node tail -f /usr/arx-node/logs/<LOG_FILENAME>
 ```
+<img width="1108" height="367" alt="image" src="https://github.com/user-attachments/assets/f25342c6-f448-4bae-945e-b7b261d60b6f" />
 
 ## 13. 查询节点状态
 ```bash
 arcium arx-active <NODE_OFFSET> --rpc-url https://api.devnet.solana.com
 arcium arx-info <NODE_OFFSET> --rpc-url https://api.devnet.solana.com
 ```
+<img width="899" height="206" alt="image" src="https://github.com/user-attachments/assets/3672f0ab-57c7-4143-aa22-99bf669f07b1" />
+
